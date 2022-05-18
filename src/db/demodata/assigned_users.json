@@ -1,0 +1,54 @@
+[
+  {
+    "task_id": 2,
+    "user_id": 1
+  },
+  {
+    "task_id": 2,
+    "user_id": 2
+  },
+  {
+    "task_id": 2,
+    "user_id": 3
+  },
+  {
+    "task_id": 2,
+    "user_id": 4
+  },
+  {
+    "task_id": 5,
+    "user_id": 2
+  },
+  {
+    "task_id": 6,
+    "user_id": 2
+  },
+  {
+    "task_id": 10,
+    "user_id": 1
+  },
+  {
+    "task_id": 10,
+    "user_id": 2
+  },
+  {
+    "task_id": 10,
+    "user_id": 3
+  },
+  {
+    "task_id": 10,
+    "user_id": 4
+  },
+  {
+    "task_id": 16,
+    "user_id": 2
+  },
+  {
+    "task_id": 18,
+    "user_id": 1
+  },
+  {
+    "task_id": 18,
+    "user_id": 2
+  }
+]
