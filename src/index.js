@@ -18,7 +18,7 @@ app.use(errorHandler);
 
 dotenv.config();
 const PORT = process.env.APP_SERVER_PORT || 3000;
-const RESET_DATA = process.env.APP_DB_RESETONSTART === "true";
+const RESET_DATA = typeof process.env.APP_DB_RESETONSTART === "undefined" || process.env.APP_DB_RESETONSTART === "true";
 
 (async () => {
   await DB.instance.sync();

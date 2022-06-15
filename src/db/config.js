@@ -3,8 +3,8 @@ import dotenv from "dotenv";
 dotenv.config();
 
 const config = {
-  TYPE: process.env.APP_DB_TYPE,
-  PATH: process.env.APP_DB_PATH,
+  TYPE: process.env.APP_DB_TYPE || "sqlite",
+  PATH: process.env.APP_DB_PATH || "./db.sqlite",
   HOST: process.env.APP_DB_HOST,
   USER: process.env.APP_DB_USER,
   PASS: process.env.APP_DB_PASSWORD,

@@ -1,4 +1,4 @@
-Node JS Backend for Todo
+Node JS backend for the ToDo
 ========================
 
 ### How to start 
